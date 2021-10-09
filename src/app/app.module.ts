@@ -8,6 +8,7 @@ import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { ContactComponent } from './contact/contact.component';
+import { QuotesComponent } from './quotes/quotes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactComponent } from './contact/contact.component';
     QuotesFormComponent,
     NavBarComponent,
     AuthorsComponent,
-    ContactComponent
+    ContactComponent,
+    QuotesComponent
   ],
   imports: [
     BrowserModule,
