@@ -1,0 +1,8 @@
+body{
+    background-color:rgb(218, 233, 217);
+}
+.col-md-3{
+    background-color: white;
+    border-radius: 10px;
+    border-style: double;
+}
