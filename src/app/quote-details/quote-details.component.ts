@@ -7,7 +7,7 @@ import { QuotesFormComponent } from '../quotes-form/quotes-form.component';
   templateUrl: './quote-details.component.html',
   styleUrls: ['./quote-details.component.css']
 })
-export class QuoteDetailsComponent implements OnInit {
+export class QuoteDetailsComponent{
 
   @Input()quote:Quote;
 

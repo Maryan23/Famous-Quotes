@@ -26,7 +26,7 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
