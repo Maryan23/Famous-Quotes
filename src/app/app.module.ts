@@ -11,7 +11,6 @@ import { AuthorsComponent } from './authors/authors.component';
 import { ContactComponent } from './contact/contact.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
-import { DateAgoPipe } from './date-ago.pipe';
 
 @NgModule({
   declarations: [
@@ -22,8 +21,7 @@ import { DateAgoPipe } from './date-ago.pipe';
     AuthorsComponent,
     ContactComponent,
     QuoteComponent,
-    QuoteDetailsComponent,
-    DateAgoPipe
+    QuoteDetailsComponent
   ],
   imports: [
     BrowserModule,
