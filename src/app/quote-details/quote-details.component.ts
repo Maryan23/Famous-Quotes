@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input,Output,EventEmitter } from '@angular/core';
 import { Quote } from '../quote';
 import { QuotesFormComponent } from '../quotes-form/quotes-form.component';
 
@@ -10,7 +10,7 @@ import { QuotesFormComponent } from '../quotes-form/quotes-form.component';
 export class QuoteDetailsComponent{
 
   @Input()quote:Quote;
-  isRead: any;
+  @Output() isRead = new EventEmitter<boolean>();
 
   deleteQuote(read:boolean){
     this.isRead.emit(read);
