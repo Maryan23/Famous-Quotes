@@ -1,7 +1,7 @@
 # FAMOUS QUOTES
-#### THis is an application that serves you with a daily dose of inspiration,cheer and good vibes.
-#### Date of current version ~ Ocober 12th,2021
-#### By **{List of contributors}**
+#### This is an application that serves you with a daily dose of inspiration,cheer and good vibes.
+#### Date of current version ~ October 12th,2021
+#### By **Maryann Mwikali**
 ## Description
 This application displays some of your favorite quote authors together with their quotes. The application allows a user to create a quote,to like/dislike existing quotes and also delete goals. The application highlights the quote with the highest upvotes.
 ## Setup/Installation Requirements
