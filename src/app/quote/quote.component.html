@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="quote.component.css">
 <div class="col-md-12">
   <app-quotes-form (qdetails)='addQuote($event)'></app-quotes-form>
-</div>
+</div><br>
 <div class="quotes">
 <h3 align="center">OUR QUOTES</h3>
 <div *ngFor='let quote of quotes; let i = index' class="col-md-12" align="center">
