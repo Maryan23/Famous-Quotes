@@ -17,6 +17,15 @@ export class QuoteComponent implements OnInit {
   addQuote(qdet:Quote){
     this.quotes.push(qdet)
   }
+  deleteQuote(isRead: any, index: number){
+    if (isRead) {
+      let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].body}?`)
+
+      if (toDelete){
+        this.quotes.splice(index,0)
+      }
+    }
+  }
   constructor() { }
 
   ngOnInit(): void {

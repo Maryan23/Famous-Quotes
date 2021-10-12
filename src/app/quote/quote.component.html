@@ -3,7 +3,8 @@
 <div *ngFor='let quote of quotes; let i = index' class="col-md-12" align="center">
   {{quote.body}}<br>
   <button class="btn btn-outline-dark bg-success" (click)='toggleAuthor(i)'>Show Details</button>
-  <app-quote-details *ngIf='quote.showAuthor' [quote]='quote'></app-quote-details>
+  <app-quote-details *ngIf='quote.showAuthor' [quote]='quote' (isRead)='deleteQuote($event,i)'></app-quote-details>
+  
 </div>
 <div class="col-md-12">
   <app-quotes-form (qdetails)='addQuote($event)'></app-quotes-form>

@@ -10,6 +10,11 @@ import { QuotesFormComponent } from '../quotes-form/quotes-form.component';
 export class QuoteDetailsComponent{
 
   @Input()quote:Quote;
+  isRead: any;
+
+  deleteQuote(read:boolean){
+    this.isRead.emit(read);
+  }
 
   constructor() { }
 
