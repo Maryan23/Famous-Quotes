@@ -9,7 +9,7 @@ import { QuotesFormComponent } from '../quotes-form/quotes-form.component';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[]=[
-    new Quote('Life is what happens when you are busy making other plans','John Lennon','Vodca',new Date(2020,9,9)),
+    new Quote('Life is what happens when you are busy making other plans','John Lennon','Vodca',new Date(2021,9,9)),
   ]
   toggleAuthor(index:any){
     this.quotes[index].showAuthor = !this.quotes[index].showAuthor;

@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="quote-details.component.css">
 <p >~{{quote.author}}~<br>{{quote.submitted}}</p>
-<p>Published: {{quote.date|date}}</p>
+<p>Published: {{quote.date|dateAgo}}</p>
 <button class="btn btn-outline-dark bg-success" (click)='deleteQuote(true)'>Delete Quote</button><hr>
 
 
