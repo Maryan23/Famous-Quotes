@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { LikeComponent } from './like/like.component';
+import { DateAgoPipe } from './date-ago.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LikeComponent } from './like/like.component';
     ContactComponent,
     QuoteComponent,
     QuoteDetailsComponent,
-    LikeComponent
+    LikeComponent,
+    DateAgoPipe
   ],
   imports: [
     BrowserModule,
