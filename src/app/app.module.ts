@@ -8,7 +8,6 @@ import { AboutComponent } from './about/about.component';
 import {QuotesFormComponent} from './quotes-form/quotes-form.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AuthorsComponent } from './authors/authors.component';
-import { ContactComponent } from './contact/contact.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { LikeComponent } from './like/like.component';
@@ -21,7 +20,6 @@ import { DateAgoPipe } from './date-ago.pipe';
     QuotesFormComponent,
     NavBarComponent,
     AuthorsComponent,
-    ContactComponent,
     QuoteComponent,
     QuoteDetailsComponent,
     LikeComponent,

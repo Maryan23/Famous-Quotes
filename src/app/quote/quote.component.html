@@ -1,12 +1,13 @@
 <link rel="stylesheet" type="text/css" href="quote.component.css">
+<div class="col-md-12">
+  <app-quotes-form (qdetails)='addQuote($event)'></app-quotes-form>
+</div>
+<div class="quotes">
 <h3 align="center">OUR QUOTES</h3>
 <div *ngFor='let quote of quotes; let i = index' class="col-md-12" align="center">
   {{quote.body}}<br>
   <app-like></app-like>
   <button class="btn btn-outline-dark bg-success" (click)='toggleAuthor(i)'>Show Details</button>
   <app-quote-details *ngIf='quote.showAuthor' [quote]='quote' (isRead)='deleteQuote($event,i)'></app-quote-details>
-  
-</div>
-<div class="col-md-12">
-  <app-quotes-form (qdetails)='addQuote($event)'></app-quotes-form>
+  </div>
 </div>

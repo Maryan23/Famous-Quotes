@@ -9,8 +9,11 @@ import { NgForm } from '@angular/forms';
 })
 
 export class QuotesFormComponent implements OnInit {
+
   @Output() qdetails = new EventEmitter<Quote>();
+
   newQuote = new Quote('','','',new Date());
+
   addQuote(){
     this.qdetails.emit(this.newQuote);
 
